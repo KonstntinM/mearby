@@ -7,6 +7,7 @@
     <title>Mearby</title>
 </head>
 <body>
-    
+    @include('components.navigationbar')
+    @yield('content')
 </body>
 </html>
